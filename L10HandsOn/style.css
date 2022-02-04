@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.email > i > a:link {
+    text-decoration: none;
+    color: #b3c0c3;
+    background-color: transparent;
+}
+.email > i > a:visited{
+    text-decoration: none;
+    color: #b3c0c3;
+    background-color: transparent;
+}
+.email > i > a:hover{
+    text-decoration: none;
+    color:#fd6262;
+    background-color: transparent;
+}
+.email > i > a:active{
+    text-decoration: none;
+    color:#334135;
+    background-color: transparent;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #334135;
+    margin: 0px;
+}
+header > .name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fd6262;
+}
+header > .position{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #c1a475;
+}
+.container > .image {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 20px;
+}
+.container > .socialmedia {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    padding-bottom: 50px;
+   
+}
+.row{
+    height: 500px;
+    
+}
+section{
+    display: grid;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+.skills{
+    color: azure;
+    background-color: #c4ab11;
+    width: 120px;
+    padding-right: 120px;
+    
+
+    
+}
+.myRepo{
+    color: #ff6162;
+    width: fit-content;
+    padding-left: 50px;
+    background-color: #760219;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+   
+    
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: #456d94;
+    height: 100px;
+    color: #b3c0c3;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+footer > .p {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 150px;
+    
+}
+.p{
+    font-family: 'Anton', sans-serif;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    font-size: xx-large;
+}
+.phone{
+    padding-left: 20px;
+}
+.contact{
+    display: grid;
+    
+}
+.socialmedia-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* width: auto; */
+    /* height: 140px; */
+    padding: 50px;
+} 
+.icons{
+    height: 50px;
+    width: auto;
+}
+.resize{
+    height: 60px
+}
+.bio{
+    color: #b3c0c3;
+}
+.bio > h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+}
